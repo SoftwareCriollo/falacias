@@ -1,29 +1,53 @@
+@font-face {
+  font-family: 'FrutigerLight';
+  src: url("/typography/frutigerltstd-light.eot");
+  src: url("/typography/frutigerltstd-light.eot") format("embedded-opentype"), url("/typography/frutigerltstd-light.woff") format("woff"), url("/typography/frutigerltstd-light.ttf") format("truetype"), url("/typography/frutigerltstd-light.svg#FrutigerLTStd45Light") format("svg"); }
+
+@font-face {
+  font-family: 'FrutigerBold';
+  src: url("/typography/frutigerltstd-bold.eot");
+  src: url("/typography/frutigerltstd-bold.eot") format("embedded-opentype"), url("/typography/frutigerltstd-bold.woff") format("woff"), url("/typography/frutigerltstd-bold.ttf") format("truetype"), url("/typography/frutigerltstd-bold.svg#FrutigerLTStd65Bold") format("svg"); }
+
+@font-face {
+  font-family: 'Lobster';
+  src: url("/typography/lobstertwo-regular-webfont.eot");
+  src: url("/typography/lobstertwo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/lobstertwo-regular-webfont.woff") format("woff"), url("/typography/lobstertwo-regular-webfont.ttf") format("truetype"), url("/typography/lobstertwo-regular-webfont.svg#lobster_tworegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*COLORS*/
 .clear {
   clear: both; }
 
 #wrapper {
   width: 1024px;
-  margin: 50px auto; }
+  margin: 0 auto; }
 
 hr {
   border-bottom: #e6e5e5;
   opacity: 0.3;
   height: 1px; }
 
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
 h1, h2, h3, h4, p, a, li {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
-  color: #282827;
   line-height: 1em; }
 
 h1 {
-  font-size: 6em;
-  letter-spacing: -6px;
-  margin: 10px 0; }
+  font-size: 8.5em;
+  font-family: "lobster"; }
 
 h2 {
-  font-size: 4em;
-  letter-spacing: -4px; }
+  font-family: "FrutigerLight";
+  font-size: 5em;
+  letter-spacing: -4px;
+  line-height: 0.6em; }
 
 h3 {
   font-size: 3em;
@@ -36,7 +60,8 @@ h4 {
   margin: 10px 0 20px 0; }
 
 p, a, li {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-family: "FrutigerLight";
   line-height: 1.5em; }
 
 a {
@@ -47,161 +72,129 @@ a {
 li {
   line-height: 30px; }
 
-.button.orange {
-  border: 1px solid #fc5401;
-  float: left;
+/*INTRO*/
+#intro {
+  background-image: url("/images/bg1-3.jpg");
+  height: 780px;
+  width: 100%; }
+
+.maintitle {
+  margin: 0 auto;
+  width: 80%;
+  padding: 6em 0 0 0;
+  text-align: center; }
+
+.social {
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  height: 50px;
+  position: fixed;
+  top: 96%;
+  padding: 5px 0 0 0; }
+
+.social p {
   color: white;
-  padding: 10px 20px;
-  margin: 20px 0;
-  background: #e37600;
-  border: 1px solid #fc5401; }
-  .button.orange a {
-    text-decoration: none; }
-  .button.orange p {
-    margin: 0;
-    font-size: 1em;
-    color: white; }
-  .button.orange:hover {
-    background: #fc5401;
-    border: 1px solid #fc5401; }
+  font-weight: lighter;
+  font-size: 1.3em; }
+
+.socialaction {
+  width: 50%;
+  margin: 0 auto; }
+
+.button1 {
+  width: 25%;
+  background-color: white;
+  height: 20px;
+  margin: 0 10px 0 0; }
+
+.socialaction .text {
+  width: 25%; }
+
+.socialaction .buttons {
+  width: 75%; }
+
+.button {
+  width: 47%;
+  height: 40px;
+  border: 2px solid white;
+  margin: 1em auto;
+  padding: 15px 0 0 0; }
+
+.button:hover {
+  background-color: black;
+  opacity: 0.5; }
+
+.button p {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: "FrutigerBold";
+  color: white; }
+
+#types-index {
+  background-image: url("/images/bg2.jpg");
+  overflow: hidden;
+  padding: 0 0 5em 0; }
+  #types-index h1 {
+    font-size: 5em;
+    color: #4a4a47; }
 
 .title {
-  width: 100%;
-  border-bottom: 3px solid black;
-  margin: 0 0 40px 0; }
-
-.twocolumn {
-  width: 50%;
-  float: left;
-  margin: 0 0 50px 0; }
-
-form {
-  width: 100%;
-  padding: 10px !important;
-  background: white;
-  /* for non-css3 browsers */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$white', endColorstr='$lightgrey');
-  /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#e6e5e5));
-  /* for webkit browsers */
-  background: -moz-linear-gradient(top, white, #e6e5e5);
-  /* for firefox 3.6+ */
-  border: 1px solid #e6e5e5 !important;
-  position: relative;
-  margin: 20px 0 50px 0 !important; }
-
-form:before, form:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  bottom: 8px;
-  left: 10px;
-  width: 60%;
-  height: 20%;
-  max-width: 300px;
-  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  transform: rotate(-3deg); }
-
-form:after {
-  right: 10px;
-  left: auto;
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  transform: rotate(3deg); }
-
-input, textarea, select {
-  width: 95%;
-  border: 1px solid #e6e5e5;
-  height: 35px;
-  padding: 5px 10px;
-  margin: 0 0 10px 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 18px;
-  color: #959494; }
-
-select {
-  width: 99%;
-  height: 40px;
-  font-size: 1.2em; }
-
-textarea {
-  height: 100px; }
-
-label.label_input {
-  width: 95%;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  bottom: 1px;
-  left: 2px;
-  z-index: 1;
-  padding: 13px 3px 13px 10px;
-  line-height: 20px;
-  white-space: nowrap;
-  cursor: text;
-  display: block;
-  font-size: 1.1em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #959494; }
-
-label {
-  font-size: 1.2em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #959494;
-  float: left; }
-
-.input-placeholder {
-  position: relative; }
-
-.button.orange.send {
-  width: 30%;
-  margin: 10px 0 10px 150px;
-  line-height: 0;
-  padding: 0 0 5px 0;
-  letter-spacing: 0; }
-
-.boxui.header, .boxui.box {
-  width: 100%;
-  -webkit-border-radius: 4px 4px 0 0;
-  border-radius: 4px 4px 0 0;
-  background: white;
-  border: 1px solid #e6e5e5;
-  margin: 40px 0 0 0;
-  background: white;
-  /* for non-css3 browsers */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$white', endColorstr='$lightgrey');
-  /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#e6e5e5));
-  /* for webkit browsers */
-  background: -moz-linear-gradient(top, white, #e6e5e5);
-  /* for firefox 3.6+ */
-  padding: 10px; }
-  .boxui.header p, .boxui.box p {
-    margin: 0; }
-
-.boxui.box {
-  -webkit-border-radius: 0 0 4px 4px;
-  border-radius: 0 0 4px 4px;
-  margin: 0;
-  background: white; }
-
-label, select {
-  font-size: 1.1em; }
-
-.radio {
-  width: 5%;
-  float: left;
-  height: 22px; }
-
-.container p {
-  color: #fff;
-  line-height: 100px;
-  background: #000;
   text-align: center;
-  margin: 20px 0 0 0; }
+  padding: 30px 0;
+  width: 62%;
+  margin: 0 auto; }
+
+.fallacy-content {
+  width: 100%;
+  margin: 0 auto; }
+
+.fallacy-content .title {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 0; }
+  .fallacy-content .title h2 {
+    font-size: 3em;
+    letter-spacing: -2px;
+    color: #4a4a47; }
+
+.fallacy-content p {
+  color: #4a4a47; }
+
+.context {
+  width: 42%;
+  margin: 1em 0 0 0; }
+
+.video {
+  margin: 2em auto;
+  text-align: center;
+  padding: 2% 0 0 0;
+  width: 53%; }
+  .video h2 {
+    color: white;
+    opacity: 0.7;
+    letter-spacing: 0;
+    text-transform: uppercase; }
+
+.line-small {
+  width: 20%;
+  margin: 3em auto;
+  border-bottom: 1px solid #4a4a47; }
+
+.fallacy-content .description p {
+  margin: 0 0 1em 0; }
+
+.number {
+  width: 11%;
+  height: 29px;
+  border-radius: 10em;
+  border: 3px solid #4a4a47;
+  margin: -5% 4% 0 0;
+  padding: 15px 0 0 0; }
+
+.number h2 {
+  font-size: 2.3em !important; }
+
+.example p {
+  font-size: 1.3em; }

@@ -155,8 +155,8 @@ li {
   margin: 0 0 1em 0;
   padding: 0; }
   .fallacy-content .title h2 {
-    font-size: 3em;
-    letter-spacing: -2px;
+    font-size: 2.3em;
+    letter-spacing: -1.6px;
     color: #4a4a47; }
 
 .fallacy-content p {
@@ -186,7 +186,7 @@ li {
   margin: 0 0 1em 0; }
 
 .number {
-  width: 11%;
+  width: 10%;
   height: 29px;
   border-radius: 10em;
   border: 3px solid #4a4a47;

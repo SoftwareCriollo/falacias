@@ -37,4 +37,33 @@ class App < Sinatra::Base
     slim :buttons
   end  
 
+  get('/fallacies/hombredepaja') do 
+    slim :"fallacies/hombredepaja"
+  end  
+
+  get('/fallacies/causafalsa') do 
+    slim :"fallacies/causafalsa"
+  end  
+
+  get('/fallacies/apelaremocion') do 
+    slim :"fallacies/apelaremocion"
+  end  
+
+  get('/fallacies/adhominem') do 
+    slim :"fallacies/adhominem"
+  end  
+
+  get('/fallacies/falaciadefalacia') do 
+    slim :"fallacies/falaciadefalacia"
+  end  
+
+  get('/fallacies/pendienteresbaladiza') do 
+    slim :"fallacies/pendienteresbaladiza"
+  end  
+
+  get('/fallacies/tuquoque') do 
+    slim :"fallacies/tuquoque"
+  end  
+
+
 end

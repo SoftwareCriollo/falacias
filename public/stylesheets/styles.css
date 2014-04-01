@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'FrutigerLight';
   src: url("/typography/frutigerltstd-light.eot");
@@ -60,7 +61,7 @@ h4 {
   margin: 10px 0 20px 0; }
 
 p, a, li {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-family: "FrutigerLight";
   line-height: 1.5em; }
 
@@ -74,15 +75,18 @@ li {
 
 /*INTRO*/
 #intro {
-  background-image: url("/images/bg1-3.jpg");
+  background-image: url("/images/caracas.jpg");
   height: 780px;
   width: 100%; }
 
 .maintitle {
   margin: 0 auto;
   width: 80%;
-  padding: 6em 0 0 0;
+  padding: 8em 0 0 0;
   text-align: center; }
+
+.maintitle p {
+  margin: 1em 0; }
 
 .social {
   width: 100%;
@@ -111,14 +115,17 @@ li {
 .socialaction .text {
   width: 25%; }
 
+.text h2 {
+  line-height: 1.6em; }
+
 .socialaction .buttons {
   width: 75%; }
 
 .button {
-  width: 47%;
-  height: 40px;
-  border: 2px solid white;
-  margin: 1em auto;
+  width: 85%;
+  height: 50px;
+  border: 3px solid white;
+  margin: 3em auto;
   padding: 15px 0 0 0; }
 
 .button:hover {
@@ -127,17 +134,18 @@ li {
 
 .button p {
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "FrutigerBold";
-  color: white; }
+  color: white;
+  margin: 0; }
 
 #types-index {
-  background-image: url("/images/bg2.jpg");
+  background-image: url("/images/bg1-3.jpg");
   overflow: hidden;
+  min-height: 1350px;
   padding: 0 0 5em 0; }
   #types-index h1 {
-    font-size: 5em;
-    color: #4a4a47; }
+    font-size: 5em; }
 
 .title {
   text-align: center;
@@ -146,8 +154,14 @@ li {
   margin: 0 auto; }
 
 .fallacy-content {
-  width: 100%;
+  width: 99%;
   margin: 0 auto; }
+
+.fallacy-list {
+  width: 49%; }
+  .fallacy-list h2 {
+    font-size: 2.1em;
+    letter-spacing: -1px; }
 
 .fallacy-content .title {
   text-align: center;
@@ -156,14 +170,13 @@ li {
   padding: 0; }
   .fallacy-content .title h2 {
     font-size: 2.3em;
-    letter-spacing: -1.6px;
-    color: #4a4a47; }
+    letter-spacing: -1.6px; }
 
 .fallacy-content p {
   color: #4a4a47; }
 
 .context {
-  width: 42%;
+  width: 45%;
   margin: 1em 0 0 0; }
 
 .video {
@@ -182,19 +195,59 @@ li {
   margin: 3em auto;
   border-bottom: 1px solid #4a4a47; }
 
+.white {
+  border-bottom: 1px solid white; }
+
 .fallacy-content .description p {
   margin: 0 0 1em 0; }
 
 .number {
-  width: 10%;
-  height: 29px;
+  width: 9%;
+  height: 25px;
   border-radius: 10em;
-  border: 3px solid #4a4a47;
-  margin: -5% 4% 0 0;
-  padding: 15px 0 0 0; }
+  border: 3px solid white;
+  margin: 0 3% 2% 0;
+  padding: 12px 0 0 0;
+  text-align: center; }
 
 .number h2 {
-  font-size: 2.3em !important; }
+  font-size: 1.8em !important;
+  line-height: 0.75em; }
 
 .example p {
   font-size: 1.3em; }
+
+.bold {
+  font-family: "FrutigerBold"; }
+
+.falacies {
+  width: 80%;
+  margin: 0 auto; }
+
+.falaciess {
+  width: 100%; }
+
+.rectangle {
+  width: 22%;
+  border: 2px solid white;
+  text-align: center;
+  height: 115px;
+  margin: 0 2% 2% 0;
+  border-radius: 3px;
+  padding: 2% 0 0 0; }
+
+.genetica {
+  width: 104px;
+  height: 63px;
+  background-image: url(‘/images/genetics.svg’);
+  margin: auto;
+  background-size: 104px 63px; }
+
+a .rectangle {
+  font-size: 0.6em;
+  color: white;
+  text-align: center; }
+
+a .rectangle:hover {
+  background-color: white;
+  color: black; }

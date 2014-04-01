@@ -141,7 +141,7 @@ li {
 #types-index {
   background-image: url("/images/bg1-3.jpg");
   overflow: hidden;
-  min-height: 1350px;
+  min-height: 1495px;
   padding: 0 0 5em 0; }
   #types-index h1 {
     font-size: 5em; }
@@ -235,33 +235,166 @@ li {
   border-radius: 3px;
   padding: 2% 0 0 0; }
 
-.rectangle.genetica {
-  width: 22%;
-  height: 115px;
+.genetica {
+  width: 106px;
+  height: 65px;
   background-image: url("/images/genetics.svg");
-  background-repeat: no-repeat;
-  text-align: center; }
+  margin: 0 auto; }
 
-.rectangle.carrodebanda {
-  width: 22%;
-  height: 60px;
+.carrodebanda {
+  width: 72px;
+  height: 63px;
   background-image: url("/images/carrodebanda.svg");
-  background-repeat: no-repeat;
-  text-align: center; }
+  margin: 0 auto; }
 
-.rectangle.genetica:hover {
+.francotirador {
+  width: 66px;
+  height: 63px;
+  background-image: url("/images/francotirador.svg");
+  margin: 0 auto; }
+
+.resbaladizo {
+  width: 60px;
+  height: 62px;
+  background-image: url("/images/resbaladizo.svg");
+  margin: 0 auto; }
+
+.emotion {
+  width: 60px;
+  height: 58px;
+  background-image: url("/images/emotion.svg");
+  margin: 0 auto; }
+
+.falaciadefalacia {
+  width: 60px;
+  height: 58px;
+  background-image: url("/images/falaciadefalacia.svg");
+  margin: 0 auto; }
+
+.blancoynegro {
+  width: 60px;
+  height: 63px;
+  background-image: url("/images/blancoynegro.svg");
+  margin: 0 auto; }
+
+.preguntaprincipiante {
+  width: 60px;
+  height: 63px;
+  background-image: url("/images/preguntaprincipiante.svg");
+  margin: 0 auto; }
+
+.apelarnatural {
+  width: 60px;
+  height: 60px;
+  background-image: url("/images/scorpion.svg");
+  margin: 0 auto; }
+
+.authority {
+  width: 60px;
+  height: 63px;
+  background-image: url("/images/authority.svg");
+  margin: 0 auto; }
+
+.anecdote {
+  width: 60px;
+  height: 63px;
+  background-image: url("/images/anecdote.svg");
+  margin: 0 auto; }
+
+.natural {
+  width: 60px;
+  height: 63px;
+  background-image: url("/images/natural.svg");
+  margin: 0 auto; }
+
+.division {
+  width: 60px;
+  height: 61px;
+  background-image: url("/images/division.svg");
+  margin: 0 auto; }
+
+.intencionada {
+  width: 60px;
+  height: 60px;
+  background-image: url("/images/intencionada.svg");
+  margin: 0 auto; }
+
+.defense {
+  width: 60px;
+  height: 60px;
+  background-image: url("/images/defense.svg");
+  margin: 0 auto; }
+
+.adhominem {
+  width: 88px;
+  height: 60px;
+  background-image: url("/images/adhominem.svg");
+  margin: 0 auto; }
+
+.contribucion {
+  width: 88px;
+  height: 60px;
+  background-image: url("/images/contribucion.svg");
+  margin: 0 auto; }
+
+.rectangle:hover .contribucion {
+  background-position-y: -58px; }
+
+.rectangle:hover .adhominem {
+  background-position-y: -70px; }
+
+.rectangle:hover .defense {
+  background-position-y: -58px; }
+
+.rectangle:hover .intencionada {
+  background-position-y: -58px; }
+
+.rectangle:hover .division {
+  background-position-y: -60px; }
+
+.rectangle:hover .natural {
+  background-position-y: -60px; }
+
+.rectangle:hover .anecdote {
+  background-position-y: -57px; }
+
+.rectangle:hover .authority {
+  background-position-y: -60px; }
+
+.rectangle:hover .apelarnatural {
+  background-position-y: -58px; }
+
+.rectangle:hover .preguntaprincipiante {
+  background-position-y: -63px; }
+
+.rectangle:hover .blancoynegro {
+  background-position-y: -60px; }
+
+.rectangle:hover .falaciadefalacia {
+  background-position-y: -53px; }
+
+.rectangle:hover .emotion {
+  background-position-y: -60px; }
+
+.rectangle:hover .resbaladizo {
+  background-position-y: -63px; }
+
+.rectangle:hover .carrodebanda {
   background-position-y: -62px; }
 
-.rectangle.carrodebanda:hover {
+.rectangle:hover .genetica {
+  background-position-y: -62px; }
+
+.rectangle:hover .francotirador {
   background-position-y: -62px; }
 
 a .rectangle {
-  font-size: 0.6em;
+  font-size: 0.48em;
   color: white;
   text-align: center; }
 
 .rectangle p {
-  margin: 2.5em 0 0 0; }
+  margin: 0.2em 0 0 0; }
 
 a .rectangle:hover {
   background-color: white;

@@ -191,14 +191,8 @@ li {
     color: #4a4a47; }
 
 .video {
-  text-align: center;
   padding: 2% 0 0 0;
   width: 53%; }
-  .video h2 {
-    color: white;
-    opacity: 0.7;
-    letter-spacing: 0;
-    text-transform: uppercase; }
 
 .line-small {
   width: 20%;

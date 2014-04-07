@@ -65,5 +65,72 @@ class App < Sinatra::Base
     slim :"fallacies/tuquoque"
   end  
 
+  get('/fallacies/agobiodeprueba') do 
+    slim :"fallacies/agobiodeprueba"
+  end  
+
+  get('/fallacies/ambiguedad') do 
+    slim :"fallacies/ambiguedad"
+  end  
+
+  get('/fallacies/terrenonatural') do 
+    slim :"fallacies/terrenonatural"
+  end  
+
+  get('/fallacies/defensaespecial') do 
+    slim :"fallacies/defensaespecial"
+  end  
+
+  get('/fallacies/preguntaintencionada') do 
+    slim :"fallacies/preguntaintencionada"
+  end  
+
+  get('/fallacies/falaciajugador') do 
+    slim :"fallacies/falaciajugador"
+  end  
+
+  get('/fallacies/carrobanda') do 
+    slim :"fallacies/carrobanda"
+  end  
+
+  get('/fallacies/apelarautoridad') do 
+    slim :"fallacies/apelarautoridad"
+  end  
+
+  get('/fallacies/composiciondivision') do 
+    slim :"fallacies/composiciondivision"
+  end  
+
+  get('/fallacies/falsacontribucionhombre') do 
+    slim :"fallacies/falsacontribucionhombre"
+  end  
+
+  get('/fallacies/genetica') do 
+    slim :"fallacies/genetica"
+  end  
+
+  get('/fallacies/blancoonegro') do 
+    slim :"fallacies/blancoonegro"
+  end  
+
+  get('/fallacies/preguntaprincipiante') do 
+    slim :"fallacies/preguntaprincipiante"
+  end  
+
+  get('/fallacies/apelarnatural') do 
+    slim :"fallacies/apelarnatural"
+  end  
+
+  get('/fallacies/anecdotico') do 
+    slim :"fallacies/anecdotico"
+  end  
+
+  get('/fallacies/francotiradortexas') do 
+    slim :"fallacies/francotiradortexas"
+  end  
+
+  get('/fallacies/terrenonatural') do 
+    slim :"fallacies/terrenonatural"
+  end  
 
 end

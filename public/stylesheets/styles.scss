@@ -130,8 +130,9 @@ li {
 
 #intro {
 	background-image: url('/images/caracas.jpg');
-	height: 780px;
+	height: 760px;
 	width: 100%;
+	border-bottom: 1px solid black;
 }
 
 .maintitle {
@@ -165,11 +166,14 @@ li {
 	margin: 0 auto;
 }
 
-.button1 {
+.button1, .button1large {
 	width: 25%;
-	background-color: white;
 	height: 20px;
 	margin: 0 10px 0 0;
+}
+
+.button1large {
+	width: 300px;
 }
 
 .socialaction .text {
@@ -185,24 +189,26 @@ li {
 }
 
 .button {
-	width: 85%;
-	height: 50px;
-	border: 3px solid white;
-	margin: 3em auto;
+	width: 50%;
+	height: 41px;
+	margin: 2em auto;
 	padding: 15px 0 0 0;
+	text-align: center;
+	border-radius: 3px;
+	background-color: #fb7600;
 }
 
 .button:hover {
-	background-color: black;
-	opacity: 0.5;
+	background-color: #c7551e;
 }
 
 .button p {
 	text-transform: uppercase;
-	font-size: 1.2em;
-	font-family: "FrutigerBold";
+	font-size: 0.85em;
+	font-family: "FrutigerLight";
 	color: white;
 	margin: 0;
+	letter-spacing: 1px;
 }
 
 #types-index {
@@ -225,6 +231,7 @@ li {
 .fallacy-content {
 	width: 99%;
 	margin:0 auto;
+	padding: 3em 0 0 0;
 }
 
 .fallacy-list {
@@ -247,16 +254,24 @@ li {
 	}
 }
 
-.fallacy-content p {
+.fallacy-content p, .description p {
 	color: #4a4a47;
+}
+
+.fallacy-content .title h1 {
+	font-size: 5em;
+	color: #31383c;
 }
 
 .context {
 	width: 45%;
 	margin: 1em 0 0 0;
+	h2 {
+		color: #4a4a47;
+	}
 }
+
 .video {
-	margin: 2em auto;
 	text-align: center;
 	padding: 2% 0 0 0;
 	width: 53%;
@@ -299,8 +314,22 @@ li {
 	line-height: 0.75em;
 }
 
-.example p {
+.example p, .ejemplosocial p {
 	font-size: 1.3em;
+}
+
+.ejemplosocial p {
+		text-align: center;
+}
+
+.ejemplosocial a {
+	font-size: 1em !important;
+	color: #fb7600 !important;
+	font-family: "FrutigerBold";
+}
+
+.ejemplosocial a:hover {
+	color: black !important;
 }
 
 .bold {
@@ -410,6 +439,44 @@ li {
 	margin: 0 auto;	
 }
 
+.nav .falaciadefalacia {
+	width: 60px;
+	height: 58px;
+	margin: 0 auto;
+	background-position-y: -55px;
+}
+
+.nav .resbaladizo {
+	background-position-y: -59px;	
+}
+
+.nav .natural {
+	background-image: url('/images/natural.svg');
+	background-position-y: -59px;
+	margin: 0 auto;
+}
+
+.nav .adhominem {
+	background-image: url('/images/adhominem.svg');
+	background-position-y: -70px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+.nav .tuquoque {
+	background-image: url('/images/tuquoque.svg');
+	background-position-y: -60px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+.nav .defense {
+	background-image: url('/images/defense.svg');
+	background-position-y: -60px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
 .division {
 	width: 60px;
 	height: 61px;
@@ -445,10 +512,84 @@ li {
 	margin: 0 auto;	
 }
 
+.jugador {
+	width: 68px;
+	height: 63px;
+	background-image: url('/images/jugador.svg');
+	margin: 0 auto;	
+}
+
+.prueba {
+	width: 68px;
+	height: 63px;
+	background-image: url('/images/prueba.svg');
+	margin: 0 auto;	
+}
+
+.ambiguedad {
+	width: 68px;
+	height: 63px;
+	background-image: url('/images/yingyang.svg');
+	margin: 0 auto;	
+}
+
+.falsecause {
+	width: 68px;
+	height: 63px;
+	background-image: url('/images/falsecause.svg');
+	margin: 0 auto;	
+}
+
+.tuquoque {
+	width: 68px;
+	height: 63px;
+	background-image: url('/images/tuquoque.svg');
+	margin: 0 auto;	
+}
+
+.strawman {
+	width: 68px;
+	height: 63px;
+	background-image: url('/images/strawman.svg');
+	margin: 0 auto;	
+}
+
+.inicio {
+	width: 55px;
+	height: 63px;
+	background-image: url('/images/home.svg');
+	margin: 0 auto !important;	
+	background-position-y: -63px;
+	background-repeat: no-repeat;
+}
+
+.rectangle:hover .strawman{
+		background-position-y: -65px;
+}
+
+.rectangle:hover .tuquoque{
+		background-position-y: -63px;
+}
+
+.rectangle:hover .falsecause{
+		background-position-y: -67px;
+}
+
+.rectangle:hover .ambiguedad{
+		background-position-y: -63px;
+}
+
+.rectangle:hover .prueba{
+		background-position-y: -60px;
+}
+
+.rectangle:hover .jugador{
+		background-position-y: -63px;
+}
+
 .rectangle:hover .contribucion{
 		background-position-y: -58px;
 }
-
 
 .rectangle:hover .adhominem{
 		background-position-y: -70px;
@@ -532,5 +673,258 @@ a .rectangle:hover{
 
 #fallacy-fullview {
 	background-image: url('/images/bg2.jpg');
-	height: 800px;
+	overflow:hidden;
+	padding: 0 0 4em 0;
+}
+
+
+/*FULL VIEW*/
+
+.next:hover .defense{
+	background-position-y: 2px;
+}
+
+.next {
+	margin: 0;
+}
+
+.nav {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.previous, .home, .next {
+	width: 24%;
+	margin: 0 5% 0 0 ;
+	text-align: center;
+	padding: 1% 2%;
+	p{
+		font-size: 1em;
+	}
+}
+
+.previous:hover, .home:hover, .next:hover {
+	background-color: #484c51;
+	border-radius: 3px;
+	p {
+			color: white;
+	}
+}
+
+.previous:hover .natural {
+	background-position-y: 0;
+}
+
+.home:hover .inicio {
+	background-position-y: 4px;
+}
+
+.next:hover .falsecause, .previous:hover .falsecause{
+	background-position-y: -1px;
+}
+
+.previous:hover .strawman {
+	background-position-y: 0;
+}
+
+.next:hover .emotion, .previous:hover .emotion{
+	background-position-y: -1px;
+}
+
+.next:hover .falaciadefalacia, .previous:hover .falaciadefalacia {
+	background-position-y: 0;
+}
+
+.next:hover .adhominem, .previous:hover .adhominem {
+	background-position-y: 0;
+}
+
+.next:hover .tuquoque, .previous:hover .tuquoque {
+	background-position-y: 0;
+}
+
+.next:hover .resbaladizo{
+	background-position-y: 4px;
+}
+
+.next:hover .defense{
+	background-position-y: 2px;
+}
+
+.next:hover .intencionada, .previous:hover .intencionada {
+	background-position-y: 1px;
+}
+
+.next:hover .prueba, .previous:hover .prueba {
+	background-position-y: 1px;
+}
+
+.next:hover .ambiguedad, .previous:hover .ambiguedad {
+	background-position-y: 1px;
+}
+
+.next:hover .jugador, .previous:hover .jugador {
+	background-position-y: 1px;
+}
+
+.next:hover .carrodebanda, .previous:hover .carrodebanda {
+	background-position-y: 1px;
+}
+
+.next:hover .authority, .previous:hover .authority {
+	background-position-y: 0;
+}
+
+.next:hover .division, .previous:hover .division {
+	background-position-y: 0;
+}
+
+.next:hover .contribucion, .previous:hover .contribucion {
+	background-position-y: 0;
+}
+
+.next:hover .genetica, .previous:hover .genetica {
+	background-position-y: 0;
+}
+
+.next:hover .genetica, .previous:hover .genetica {
+	background-position-y: 0;
+}
+
+.next:hover .blancoynegro, .previous:hover .blancoynegro {
+	background-position-y: 1px;
+}
+
+.next:hover .preguntaprincipiante, .previous:hover .preguntaprincipiante {
+	background-position-y: 2px;
+}
+
+.next:hover .apelarnatural, .previous:hover .apelarnatural {
+	background-position-y: 2px;
+}
+
+.next:hover .anecdote, .previous:hover .anecdote {
+	background-position-y: 6px;
+}
+
+.next:hover .francotirador, .previous:hover .francotirador {
+	background-position-y: 4px;
+}
+
+.nav .falsecause {
+	background-image: url('/images/falsecause.svg');
+	background-position-y: -67px;
+}
+
+.nav .strawman {
+	background-image: url('/images/strawman.svg');
+	background-position-y: -67px;
+}
+
+.nav .emotion {
+	background-image: url('/images/emotion.svg');
+	background-position-y: -63px;
+}
+
+.nav .intencionada {
+	background-image: url('/images/intencionada.svg');
+	background-position-y: -58px;
+}
+
+.nav .prueba {
+	background-image: url('/images/prueba.svg');
+	background-position-y: -58px;
+}
+
+.nav .ambiguedad {
+	background-image: url('/images/yingyang.svg');
+	background-position-y: -62px;
+}
+
+.nav .jugador {
+	background-image: url('/images/jugador.svg');
+	background-position-y: -62px;
+}
+
+.nav .carrodebanda {
+	background-image: url('/images/carrodebanda.svg');
+	background-position-y: -62px;
+}
+
+.nav .authority {
+	background-image: url('/images/authority.svg');
+	background-position-y: -62px;
+}
+
+.nav .division {
+	background-image: url('/images/division.svg');
+	background-position-y: -60px;
+}
+
+.nav .contribucion {
+	background-image: url('/images/contribucion.svg');
+	background-position-y: -60px;
+}
+
+.nav .genetica {
+	background-image: url('/images/genetics.svg');
+	background-position-y: -62px;
+}
+
+.nav .blancoynegro {
+	background-image: url('/images/blancoynegro.svg');
+	background-position-y: -57px;
+}
+
+.nav .preguntaprincipiante {
+	background-image: url('/images/preguntaprincipiante.svg');
+	background-position-y: -57px;
+}
+
+.nav .apelarnatural {
+	background-image: url('/images/scorpion.svg');
+	background-position-y: -57px;
+}
+
+.nav .anecdote {
+	background-image: url('/images/anecdote.svg');
+	background-position-y: -55px;
+}
+
+.nav .francotirador {
+	background-image: url('/images/francotirador.svg');
+	background-position-y: -59px;
+}
+
+#falaciasemanal {
+	background-image: url('/images/bg2.jpg');
+  padding: 0 0 4em 0;
+	.title {
+		width: 80%;
+	}
+	h1 {
+		font-size: 5em;
+		color: #31383c;
+	}
+
+	h2 {
+		font-size: 1.8em;
+		text-transform: uppercase;
+		letter-spacing: 0;
+		line-height: 2em;
+	}
+}
+
+#logicavenezolana {
+	background-image: url('/images/bg2.jpg');
+	height: 250px;
+	text-align: center;
+	p {
+		color: #4a4a47;
+	}
+}
+
+#creadopor {
+	background-image: url('/images/chalkbg.jpg');
+	height: 100px;
 }

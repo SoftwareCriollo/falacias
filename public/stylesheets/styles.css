@@ -712,4 +712,26 @@ a .rectangle:hover {
 
 #creadopor {
   background-image: url("/images/chalkbg.jpg");
-  height: 100px; }
+  height: 400px;
+  padding: 3em 0; }
+  #creadopor h1 {
+    font-size: 5em;
+    text-align: center; }
+
+.logo {
+  width: 40%;
+  margin: 1em auto; }
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+  .contact p {
+    color: white;
+    font-size: 1.7em; }
+  .contact a {
+    font-size: 1em;
+    color: #fb7600;
+    text-decoration: underline; }
+  .contact a:hover {
+    color: #c7551e; }

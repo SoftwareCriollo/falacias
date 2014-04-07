@@ -926,5 +926,35 @@ a .rectangle:hover{
 
 #creadopor {
 	background-image: url('/images/chalkbg.jpg');
-	height: 100px;
+	height: 400px;
+	padding: 3em 0;
+	h1 {
+		font-size: 5em;
+		text-align: center;
+	}
+}
+
+.logo {
+	width: 40%;
+	margin: 1em auto;
+}
+
+.contact {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	p {
+		color: white;
+		font-size: 1.7em;
+	}
+
+	a {
+		font-size: 1em;
+		color: #fb7600;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color: #c7551e;
+	}
 }

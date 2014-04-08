@@ -25,7 +25,6 @@
          url('/typography/lobstertwo-regular-webfont.svg#lobster_tworegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*COLORS*/
@@ -46,8 +45,12 @@ $textgrey: #959494;
 }
 
 #wrapper {
-	width: 1024px;
+	max-width: 90%;
 	margin: 0 auto;
+}
+
+.video iframe{
+  max-width: 100% !important;
 }
 
 hr {
@@ -189,7 +192,7 @@ li {
 }
 
 .button {
-	width: 50%;
+	width: 60%;
 	height: 41px;
 	margin: 2em auto;
 	padding: 15px 0 0 0;
@@ -214,8 +217,8 @@ li {
 #types-index {
 	background-image: url('/images/bg1-3.jpg');
 	overflow: hidden;
-	min-height: 1495px;
 	padding: 0 0 5em 0;
+	min-height: 1496px;
 	h1 {
 		font-size: 5em;
 	}
@@ -224,7 +227,7 @@ li {
 .title {
 	text-align: center;
 	padding: 30px 0;
-	width: 62%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -342,7 +345,7 @@ li {
 	width: 22%;
 	border: 2px solid white;
 	text-align: center;
-	height: 115px !important;
+	height: 110px !important;
 	margin: 0 2% 2% 0;
 	border-radius: 3px;
 	padding: 2% 0 0 0;
@@ -657,6 +660,7 @@ a .rectangle{
 
 .rectangle p {
 		margin: 0.2em 0 0 0;
+		line-height: 1em;
 }
 
 a .rectangle:hover{

@@ -65,8 +65,8 @@ class App < Sinatra::Base
     slim :"fallacies/tuquoque"
   end  
 
-  get('/fallacies/agobiodeprueba') do 
-    slim :"fallacies/agobiodeprueba"
+  get('/fallacies/cargadeprueba') do 
+    slim :"fallacies/cargadeprueba"
   end  
 
   get('/fallacies/ambiguedad') do 

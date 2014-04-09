@@ -81,7 +81,9 @@ li {
   width: 100%;
   border-bottom: 1px solid black;
   overflow: hidden;
-  padding: 0 0 10% 0; }
+  padding: 0 0 10% 0;
+  background-size: cover;
+  background-position: center; }
 
 .maintitle {
   margin: 0 auto;
@@ -151,7 +153,9 @@ li {
   background-image: url("/images/bg1-3.jpg");
   overflow: hidden;
   padding: 0 0 5em 0;
-  min-height: 1496px; }
+  min-height: 1496px;
+  background-size: cover;
+  background-position: center; }
   #types-index h1 {
     font-size: 5em; }
 
@@ -717,7 +721,9 @@ a .rectangle:hover {
 #creadopor {
   background-image: url("/images/chalkbg.jpg");
   height: 400px;
-  padding: 3em 0; }
+  padding: 3em 0;
+  background-size: cover;
+  background-position: center; }
   #creadopor h1 {
     font-size: 5em;
     text-align: center; }

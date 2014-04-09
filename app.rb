@@ -89,8 +89,8 @@ class App < Sinatra::Base
     slim :"fallacies/falaciajugador"
   end  
 
-  get('/fallacies/carrobanda') do 
-    slim :"fallacies/carrobanda"
+  get('/fallacies/apelarmayoria') do 
+    slim :"fallacies/apelarmayoria"
   end  
 
   get('/fallacies/apelarautoridad') do 
@@ -101,8 +101,8 @@ class App < Sinatra::Base
     slim :"fallacies/composiciondivision"
   end  
 
-  get('/fallacies/falsacontribucionhombre') do 
-    slim :"fallacies/falsacontribucionhombre"
+  get('/fallacies/peticionprincipio') do 
+    slim :"fallacies/peticionprincipio"
   end  
 
   get('/fallacies/genetica') do 

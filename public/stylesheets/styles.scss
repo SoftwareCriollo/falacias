@@ -358,10 +358,10 @@ li {
 	margin: 0 auto;
 }
 
-.carrodebanda {
+.apelarmayoria {
 	width: 72px;
 	height: 63px;
-	background-image: url('/images/carrodebanda.svg');
+	background-image: url('/images/apelarmayoria.svg');
 	margin: 0 auto;
 }
 
@@ -639,7 +639,7 @@ li {
 		background-position-y: -63px;
 }
 
-.rectangle:hover .carrodebanda {
+.rectangle:hover .apelarmayoria {
 		background-position-y: -62px;
 }
 
@@ -659,7 +659,7 @@ a .rectangle{
 }
 
 .rectangle p {
-		margin: 0.2em 0 0 0;
+		margin: 0.4em 0 0 0;
 		line-height: 1em;
 }
 
@@ -764,7 +764,7 @@ a .rectangle:hover{
 	background-position-y: 1px;
 }
 
-.next:hover .carrodebanda, .previous:hover .carrodebanda {
+.next:hover .apelarmayoria, .previous:hover .apelarmayoria {
 	background-position-y: 1px;
 }
 
@@ -843,8 +843,8 @@ a .rectangle:hover{
 	background-position-y: -62px;
 }
 
-.nav .carrodebanda {
-	background-image: url('/images/carrodebanda.svg');
+.nav .apelarmayoria {
+	background-image: url('/images/apelarmayoria.svg');
 	background-position-y: -62px;
 }
 

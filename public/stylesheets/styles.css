@@ -224,6 +224,9 @@ li {
 .example p, .ejemplosocial p {
   font-size: 1.3em; }
 
+.twitter-hashtag-button {
+  margin: 1% 0 1% 42%; }
+
 .ejemplosocial p {
   text-align: center; }
 
@@ -231,6 +234,9 @@ li {
   font-size: 1em !important;
   color: #fb7600 !important;
   font-family: "FrutigerBold"; }
+
+.ejemplosocial {
+  margin: 2% 0 5% 0; }
 
 .ejemplosocial a:hover {
   color: black !important; }

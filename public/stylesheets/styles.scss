@@ -133,9 +133,10 @@ li {
 
 #intro {
 	background-image: url('/images/caracas.jpg');
-	height: 760px;
 	width: 100%;
 	border-bottom: 1px solid black;
+	overflow: hidden;
+	padding: 0 0 10% 0;
 }
 
 .maintitle {
@@ -192,7 +193,7 @@ li {
 }
 
 .button {
-	width: 50%;
+	width: 21em;
 	height: 41px;
 	margin: 2em auto;
 	padding: 15px 1em 0 1em;
@@ -227,7 +228,6 @@ li {
 .title {
 	text-align: center;
 	padding: 30px 0;
-	width: 70%;
 	margin: 0 auto;
 }
 

@@ -41,8 +41,8 @@ class App < Sinatra::Base
     slim :"fallacies/hombredepaja"
   end  
 
-  get('/fallacies/causafalsa') do 
-    slim :"fallacies/causafalsa"
+  get('/fallacies/causaefecto') do 
+    slim :"fallacies/causaefecto"
   end  
 
   get('/fallacies/apelaremocion') do 
